@@ -1,0 +1,15 @@
+:root{
+    --color-gradient-1: #376e40d3,
+    --color-gradient-2: #071917, 
+    --banner-1: url(../storage/img/image.png)
+}
+
+@font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url(../storage/front/static/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url(../storage/front/static/Montserrat-Medium.ttf);
+}
