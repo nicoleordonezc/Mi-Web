@@ -1,4 +1,4 @@
-@import url('variable.css');
+@import url('../css/variable.css');
 /**********header************/
 *{ padding: 0;margin: 0; box-sizing: border-box;}
 
@@ -23,7 +23,7 @@
     padding-right: 100px; 
     display: flex; 
     gap: 100px; 
-    color: #eee;
+    color: var(--color-1);
 
 }
 .ul__menu li{ list-style: none;}
@@ -36,11 +36,11 @@
 }
 
 .section__home{ 
-    background-image: linear-gradient(#376e4072, #071917d5), url(../storage/img/imagen.png)
+    background-image: linear-gradient(var(--color-gradient-1), var(--color-gradient-2)100%), var(--banner-1);
     background-size: cover;
     background-position: center 20%;
     background-repeat: no-repeat;
-    height: 100svh;
+    height: 140svh;
 }
 
 .article__home{
@@ -52,7 +52,7 @@
     left: 21svw;
     top: 36svh;
     display: flex;
-    color: #eee
+    color: var(--color-1)
     
 }
 .article__home span{ font-size: 28px; font-family: "Montserrat-SemiBold";
@@ -64,4 +64,98 @@
 }
 .article__home p{ width: 340px; font-family: "Montserrat-Medium";
 
+}
+
+/******************icons**************/ 
+.section__icon{
+    background: #071917;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*************************** version movil *********************************/
+
+@media (max-width: 960px) {
+    .header{
+        padding: 15px;
+    }
+    .ul__menu{
+        gap: 15px;
+        padding-right: 15px;
+    }
+    .section__home{
+        display: flex;
+        justify-content: space-around;
+    }
+    .article__home{
+        left: 0;
+    }
+    .section__icon{
+        justify-content: space-around;
+    }
+    .article__home h1{
+        font-size: 70px;  
+    }
+    .section__icon img{
+        width: 45px;
+        height: 45px;
+        object-fit: contain;
+    }
+}
+@media (max-width: 576px) {
+    .header{
+        justify-content: normal;
+    }
+    .div__logo{
+        flex: 1;
+    }
+    .div__menu{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-right: 0;
+    }
+    .section__home{
+        display: flex;
+        justify-content: normal;
+        padding-left: 15px;
+        padding-right: 15px;
+        height: 95svh;
+    }
+    .article__home{
+        top: 25svh;
+    }
+    .article__home h1{
+        font-size: 60px;
+    }
+}
+
+/******************* pagina 2 ***********************/
+
+.section__pag2{
+    height: 140svh;
+    background-color: #071917;
+    background-size: cover;
+}
+
+.div__pag2 img{
+    padding-top: 5%;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* width: 1394px;
+    height: 848px; */
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 123svh;
+    
+}
+
+.article__pag2 h1{
+    font-family: "Montserrat-SemiBold";
+    display: flex;
+    padding-left: 67px;
+    top: 534px;
+    color: var(--color-1);
+    font-size: 55px;
 }

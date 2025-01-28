@@ -1,8 +1,8 @@
 :root{
-    --colo-1r: #eee
-    --color-gradient-1: #376e4072 ,
-    --color-gradient-2: #071917d5, 
-    --banner-1: url(../storage/img/image.png)
+    --color-1: #eee;
+    --color-gradient-1: #376e4014 ;
+    --color-gradient-2: #071917; 
+    --banner-1: url(../storage/img/imagen.png);
 }
 
 @font-face {
