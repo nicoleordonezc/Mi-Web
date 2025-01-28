@@ -1,6 +1,7 @@
 :root{
-    --color-gradient-1: #376e40d3,
-    --color-gradient-2: #071917, 
+    --colo-1r: #eee
+    --color-gradient-1: #376e4072 ,
+    --color-gradient-2: #071917d5, 
     --banner-1: url(../storage/img/image.png)
 }
 
