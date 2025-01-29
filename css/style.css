@@ -18,16 +18,21 @@
 .div__menu{ padding: 15px; display: flex; gap: 20px
 
 } */
-.ul__menu{
-    font-family: "Montserrat-SemiBold"; 
+.ul__menu{ 
     padding-right: 100px; 
     display: flex; 
     gap: 100px; 
     color: var(--color-1);
-
 }
-.ul__menu li{ list-style: none;}
+.ul__menu li{ 
+    list-style: none;
+    font-family: "Montserrat-SemiBold"
+}
 
+.ul__menu li a{
+    color: var(--color-1);
+    text-decoration: none;
+}
 
 /**********main************/
 
@@ -135,26 +140,77 @@
 /******************* pagina 2 ***********************/
 
 .section__pag2{
-    height: 140svh;
     background-color: #071917;
     background-size: cover;
+    position: relative;
 }
 
 .div__pag2 img{
     padding-top: 5%;
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 5px;
-    width: 1280px;
-    height: 950px;
+    width: 99svw;
+    height: 122svh;
 }
 
-.article__pag2 h1{
+.div__pag2 h1{
     font-family: "Montserrat-SemiBold";
     color: var(--color-1);
-    font-size: 55px;
-    position: relative;
-    left: 5svw;
-    top: 1svh;
+    font-size: 77px;
     display: flex;
+    width: max-content;
+    bottom: 6vh;
+    left: 135px;
+    position: absolute;
+}
+/******************* pagina 3 ***********************/
+.section__pag3{
+    background-color: #071917;
+    background-size: cover;
+    position: relative;
+}
+
+.div__pag3 img{
+    padding-top: 2%;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 99svw;
+    height: 122svh;
+}
+
+.div__pag3 h1{
+    font-family: "Montserrat-SemiBold";
+    color: var(--color-1);
+    font-size: 73px;
+    display: flex;
+    width: max-content;
+    left: 102px;
+    position: absolute;
+    bottom: 13vh;
+}
+
+/******************* pagina 4 ***********************/
+.section__pag4{
+    background-color: #071917;
+    background-size: cover;
+    position: relative;
+}
+
+.div__pag4 img{
+    padding-top: 2%;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 99svw;
+    height: 122svh;
+}
+
+.div__pag4 h1{
+    font-family: "Montserrat-SemiBold";
+    color: var(--color-1);
+    font-size: 73px;
+    display: flex;
+    width: max-content;
+    left: 102px;
+    position: absolute;
+    bottom: 13vh;
 }
