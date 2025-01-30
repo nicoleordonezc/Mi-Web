@@ -14,3 +14,8 @@
     font-family: "Montserrat-Medium";
     src: url(../storage/front/static/Montserrat-Medium.ttf);
 }
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url(../storage/front/static/Montserrat-Regular.ttf);
+}
