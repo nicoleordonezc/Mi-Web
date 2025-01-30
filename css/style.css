@@ -229,7 +229,7 @@
     display: flex;
     width: 100%; 
     gap: 2%;
-    overflow-x: scroll
+    overflow-x: scroll;
 }
 /************************* caja-0 ****************************/
 .div__opc-0{
@@ -267,17 +267,14 @@
     font-size: 20px;
     text-decoration: none;
     text-align: center;
-    display: flex;
     
 }
-.div__opc-0 h3{
-    background-color: var(--color-1);
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    position: relative;
-    align-content: center;
-    border-radius: 10px;
+.div__opc-0 button{
+    
+    border-radius: 50px;
+    border: 0;
+    width: 145px;
+    height: 44px;
 }
 /************************* caja-1 ****************************/
 .div__opc-1{
@@ -317,14 +314,11 @@
     text-align: center;
     
 }
-.div__opc-1 h3{
-    background-image: url(../storage/img/Rectangle.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    position: relative;
-    align-content: center;
+.div__opc-1 button{
+    border-radius: 50px;
+    border: 0;
+    width: 145px;
+    height: 44px;
 }
 /************************* caja-2 ****************************/
 .div__opc-2{
@@ -367,14 +361,11 @@
     text-align: center;
     
 }
-.div__opc-2 h3{
-    background-image: url(../storage/img/Rectangle.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    position: relative;
-    align-content: center;
+.div__opc-2 button{
+    border-radius: 50px;
+    border: 0;
+    width: 145px;
+    height: 44px;
 }
 
 /************************* caja-3 ****************************/
@@ -418,14 +409,11 @@
     text-align: center;
     
 }
-.div__opc-3 h3{
-    background-image: url(../storage/img/Rectangle.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    position: relative;
-    align-content: center;
+.div__opc-3 button{
+    border-radius: 50px;
+    border: 0;
+    width: 145px;
+    height: 44px;
 }
 /************************* caja-4 ****************************/
 .div__opc-4{
@@ -468,14 +456,11 @@
     text-align: center;
     
 }
-.div__opc-4 h3{
-    background-image: url(../storage/img/Rectangle.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    position: relative;
-    align-content: center;
+.div__opc-4 button{
+    border-radius: 50px;
+    border: 0;
+    width: 145px;
+    height: 44px;
 }
 /**************** icon pie de pagina ***********/
 .section__iconult{
