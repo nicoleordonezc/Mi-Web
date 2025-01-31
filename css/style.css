@@ -80,62 +80,6 @@
     justify-content: space-evenly;
 }
 
-/*************************** version movil *********************************/
-
-@media (max-width: 960px) {
-    .header{
-        padding: 15px;
-    }
-    .ul__menu{
-        gap: 15px;
-        padding-right: 15px;
-    }
-    .section__home{
-        display: flex;
-        justify-content: space-around;
-    }
-    .article__home{
-        left: 0;
-    }
-    .section__icon{
-        justify-content: space-around;
-    }
-    .article__home h1{
-        font-size: 70px;  
-    }
-    .section__icon img{
-        width: 45px;
-        height: 45px;
-        object-fit: contain;
-    }
-}
-@media (max-width: 576px) {
-    .header{
-        justify-content: normal;
-    }
-    .div__logo{
-        flex: 1;
-    }
-    .div__menu{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        padding-right: 0;
-    }
-    .section__home{
-        display: flex;
-        justify-content: normal;
-        padding-left: 15px;
-        padding-right: 15px;
-        height: 95svh;
-    }
-    .article__home{
-        top: 25svh;
-    }
-    .article__home h1{
-        font-size: 60px;
-    }
-}
 
 /******************* pagina 2 ***********************/
 
@@ -476,5 +420,75 @@
     padding-top: 61px;
     gap: 5%;
     padding-bottom: 40px;
+}
+
+/*************************** version movil *********************************/
+
+@media (max-width: 960px) {
+    .header{
+        padding: 15px;
+    }
+    .ul__menu{
+        gap: 15px;
+        padding-right: 15px;
+    }
+    .section__home{
+        display: flex;
+        justify-content: space-around;
+    }
+    .article__home{
+        left: 0;
+    }
+    .section__icon{
+        justify-content: space-around;
+    }
+    .article__home h1{
+        font-size: 70px;  
+    }
+    .section__icon img{
+        width: 45px;
+        height: 45px;
+        object-fit: contain;
+    }
+}
+@media (max-width: 576px) {
+    .header{
+        justify-content: normal;
+    }
+    .div__logo{
+        flex: 1;
+    }
+    .div__menu{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-right: 0;
+    }
+    .section__home{
+        display: flex;
+        justify-content: normal;
+        padding-left: 15px;
+        padding-right: 15px;
+        height: 95svh;
+    }
+    .article__home{
+        top: 25svh;
+    }
+    .article__home h1{
+        font-size: 60px;
+    }
+    .div__pag2 {
+        width: 700px;
+    }
+    .div__pag2 img{
+        width: 300px;
+    }
+    
+    .div__pag2 h1{
+        font-family: "Montserrat-SemiBold";
+        color: var(--color-1);
+        font-size: 10px;
+    }
+
 }
 
