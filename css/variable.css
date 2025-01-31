@@ -20,3 +20,7 @@
     font-family: "Montserrat-Regular";
     src: url(../storage/front/static/Montserrat-Regular.ttf);
 }
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url(../storage/front/static/Montserrat-Light.ttf);
+}

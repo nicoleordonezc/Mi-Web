@@ -1,21 +1,22 @@
 @import url('../css/variable.css');
 /**********header************/
-*{ padding: 0;margin: 0; box-sizing: border-box; background: var(--color-gradient-2);}
+*{ padding: 0;margin: 0; box-sizing: border-box; background: #071917;}
 
 .header{display: flex; 
-    justify-content: space-between;
     align-items: center; 
     padding-left: 20px;
     padding-right: 20px; 
-    padding-top: 5px; 
-    position: absolute;
+    padding-top: 9px; 
     width: 100%;
+}
+.div__logo{
+    padding-right: 1300px;
 }
 .ul__menu{ 
     display: flex; 
     gap: 59px; 
     color: var(--color-1);
-    justify-content: flex-end;
+    padding-right: 149px ;
 }
 .ul__menu li{ 
     list-style: none;
@@ -29,6 +30,67 @@
 .div__search{
     display: flex;
     gap: 18px;
-    margin-right: 17px;
+}
+/************************ main **********************************/
+.section__up{
+    padding-top: 41px;
+    padding-bottom: 11px
+}
+.div__line{
+    display: flex;
+    justify-content:center;
+    padding-bottom:11px;  
+}
+.div__line img{
+    width: 92svw
+}
+.div__up-menu{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 56px
+}
+.div__up-menu h2{
+    font-size: 15px;
+    font-family: "Montserrat-Light";
+}
+.div__up-menu button{
+    margin-right:160px;
+    background: #145E2A;
+    border-radius: 20px;
+    width: 113px;
+}
+.div__up-menu button a{
+    font-family: "Montserrat-Medium";
+    font-size: 15x;
+    text-decoration: none;
+}
+.section__pag-2{
+    padding-top: 69px;
+    display: flex;
+    flex-direction:row;
 
 }
+.div__photo{
+    padding-left: 26px;
+}
+.div__contenido{
+    display: flex;
+    flex-direction:column;
+    background-color: #145E2A;
+    position: relative;
+    width: 672px;
+}
+.div__contenido h3{
+    font-family: "Montserrat-Light";
+    font-size:28px;
+}
+.div__contenido h2{
+    font-family: "Montserrat-SemiBold";
+    font-size:28px;
+}
+.div__contenido p{
+    font-family: "Montserrat-Medium";
+    font-size:25px;
+}
+
