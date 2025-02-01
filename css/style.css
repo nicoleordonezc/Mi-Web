@@ -471,10 +471,11 @@
         width: 100%;
     }
     .div__pag2 h1{
-        font-size: 20px;
+        font-size: 22px;
         width: 100%;
         left: 50px;
         max-width: 576px;
+        bottom: 3vh;
     }
     .section__pag3{
         height: auto;
@@ -483,8 +484,8 @@
         width: 100%;
     }
     .div__pag3 h1{
-        bottom: 6vh;
-        font-size: 20px;
+        bottom: 3vh;
+        font-size: 22px;
         width: 100%;
         left: 50px;
         max-width: 576px;
@@ -499,8 +500,8 @@
         width: 100%;
     }
     .div__pag4 h1{
-        bottom: 6vh;
-        font-size: 20px;
+        bottom: 3vh;
+        font-size: 22px;
         width: 100%;
         left: 80px;
         max-width: 576px;

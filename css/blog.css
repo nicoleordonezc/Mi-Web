@@ -589,7 +589,6 @@
         border-radius: 5px;
         width: 100px;
         height: 40px;
-
     }
     .div__up-menu button a{
         font-size: 11px;
@@ -603,6 +602,9 @@
         padding-left: 15px;
         padding-right: 15px;
      }
+    .div__box{
+        font-size: 28px;
+    }
     .div__contenido {
         width: 210px;
         height: 170px;
