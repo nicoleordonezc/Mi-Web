@@ -1,40 +1,39 @@
 @import url('../css/variable.css');
 /**********header************/
 *{ padding: 0;margin: 0; box-sizing: border-box;}
-
 .header{
     display: flex; 
-    align-items: center;
+    justify-content: space-between;
+    align-items: center; 
     padding-left: 20px;
     padding-right: 20px; 
-    padding-top: 21px;
-    width: fit-content; 
-    background: #071917
-}
-.div__logo{
-    padding-right: 700px;
+    padding-top: 5px; 
+    position: absolute;
+    width: 100%;
+
 }
 .ul__menu{ 
+    padding-left: 550px;
     display: flex; 
-    gap: 59px; 
+    gap: 80px; 
     color: var(--color-1);
-    padding-right: 149px ;
+    list-style: none;
 }
 .ul__menu li{ 
     list-style: none;
     font-family: "Montserrat-SemiBold";
-    font-size: 17px;
 }
 .ul__menu li a{
     color: var(--color-1);
     text-decoration: none;
 }
 .div__search{
-    display: flex;
+    display: flex; 
     gap: 18px;
 }
 /************************ main **********************************/
 .main{
+    padding-top: 41px;
     background: #071917
 }
 .section__up{
@@ -79,7 +78,7 @@
 }
 .div__up-menu button a{
     font-family: "Montserrat-Medium";
-    font-size: 15x;
+    font-size: 15px;
     text-decoration: none;
 }
 .section__pag-2{
@@ -99,12 +98,12 @@
     align-items: center;
     position: absolute;
     background: #145e2aab;
-    width: 610px;
+    width: 590px;
     height: 470px;
-    padding: 32px;
+    padding: 30px;
     border-radius: 30px;
     right: 35px;
-    top: 310px;
+    top: 270px;
     
 }
 .div__contenido h3{
@@ -161,6 +160,7 @@
     gap: 26px;
     padding-left: 26px;
     padding-right: 26px;
+    overflow-x: scroll;
  }
 /******************** box-1 ****************************/
 .div__box-1{
@@ -312,6 +312,7 @@
     padding-left: 26px;
     padding-right: 26px;
     padding-top: 25px;
+    overflow-x: scroll;
  }
 /******************** box-4 ****************************/
 .div__box-4{
@@ -486,3 +487,99 @@
     gap: 21px;
     padding-bottom: 67px;
 }
+/*************** movil *********************/
+@media (max-width: 576px) {
+    .header{
+        justify-content: center;
+    }
+    .div__logo{
+       flex: 1;
+    }
+    .ul__menu{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        padding-left: 0px;
+    }
+    .ul__menu li{
+        padding-right: 10px;
+    }
+    .div__search{
+        display: flex; 
+        gap: 18px;
+    }
+    .div__line img{
+        width: 90svw
+    }
+    .div__up-menu {
+        gap: 15px;
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+    }
+    .div__up-menu h2{
+        font-size: 10px;
+    }
+    .div__up-menu a{
+        font-size: 10px;
+    }
+    .div__up-menu button{
+        margin-right: 20px;
+        border-radius: 5px;
+        width: 100px;
+        height: 20px;
+
+    }
+    .div__up-menu button a{
+        font-size: 11px;
+    }
+    .section__pag-2{
+        height: auto;
+        display: flex;
+    
+    }
+    .div__photo {
+        width: 300px;
+    }
+    .div__contenido {
+        width: 310px;
+        height: 270px;
+        padding: 12px;
+        border-radius: 10px;
+        right: 15px;
+        top: 310px;
+    }
+    .div__contenido h3{
+        font-size:15px;
+        padding-bottom: 50px;
+        padding-right: 90px;
+    }
+    .div__contenido h2{
+        font-size:15px;
+        padding-bottom: 8px;
+    }
+    .div__contenido p{
+        font-size:13px;
+        padding-bottom: 20px;
+    }
+    .div__contenido button{
+        width: 100px;
+        height: 24px;
+        border-radius: 30px;
+        border: none;
+    }
+    .div__contenido button a{
+        font-size:14px;
+    }
+    .div__box{
+        font-size: 18px;
+    }
+    .div__pie h1{
+        font-size: 20px;
+    }
+    .div__pie p{
+        font-size: 15px;
+        width: 350px;
+    }
+    }
