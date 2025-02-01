@@ -1,16 +1,18 @@
 @import url('../css/variable.css');
 /**********header************/
-*{ padding: 0;margin: 0; box-sizing: border-box; background: #071917;}
+*{ padding: 0;margin: 0; box-sizing: border-box;}
 
-.header{display: flex; 
-    align-items: center; 
+.header{
+    display: flex; 
+    align-items: center;
     padding-left: 20px;
     padding-right: 20px; 
-    padding-top: 9px; 
-    width: 100%;
+    padding-top: 21px;
+    width: fit-content; 
+    background: #071917
 }
 .div__logo{
-    padding-right: 1300px;
+    padding-right: 700px;
 }
 .ul__menu{ 
     display: flex; 
@@ -32,6 +34,9 @@
     gap: 18px;
 }
 /************************ main **********************************/
+.main{
+    background: #071917
+}
 .section__up{
     padding-top: 41px;
     padding-bottom: 11px
@@ -47,18 +52,30 @@
 .div__up-menu{
    display: flex;
    flex-direction: row;
-   justify-content: center;
-   gap: 56px
+   align-items: center;
+   gap: 30px;
+   padding-left: 94px;
 }
 .div__up-menu h2{
     font-size: 15px;
     font-family: "Montserrat-Light";
+    color: var(--color-1);
+}
+.div__up-menu h2 a{
+    font-size: 15px;
+    font-family: "Montserrat-Medium";
+    color: var(--color-1);
+    text-decoration: none;
+    text-align: center;
+   
 }
 .div__up-menu button{
-    margin-right:160px;
+    margin-right:70px;
     background: #145E2A;
-    border-radius: 20px;
+    border-radius: 10px;
     width: 113px;
+    height: 28px;
+    border:0;
 }
 .div__up-menu button a{
     font-family: "Montserrat-Medium";
@@ -69,28 +86,403 @@
     padding-top: 69px;
     display: flex;
     flex-direction:row;
-
+    background: #071917;
 }
 .div__photo{
     padding-left: 26px;
+    width: 900px;
 }
 .div__contenido{
     display: flex;
     flex-direction:column;
-    background-color: #145E2A;
-    position: relative;
-    width: 672px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background: #145e2aab;
+    width: 610px;
+    height: 470px;
+    padding: 32px;
+    border-radius: 30px;
+    right: 35px;
+    top: 310px;
+    
 }
 .div__contenido h3{
     font-family: "Montserrat-Light";
-    font-size:28px;
+    font-size:25px;
+    color: var(--color-1);
+    padding-bottom: 104px;
+    padding-right: 330px;
 }
 .div__contenido h2{
     font-family: "Montserrat-SemiBold";
-    font-size:28px;
+    font-size:25px;
+    color: var(--color-1);
+    padding-bottom: 18px;
 }
 .div__contenido p{
     font-family: "Montserrat-Medium";
-    font-size:25px;
+    font-size:20px;
+    color: var(--color-1);
+    padding-bottom: 44px;
+}
+.div__contenido button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 196px;
+    height: 34px;
+    border-radius: 30px;
+    border: none;
+}
+.div__contenido button a{
+    font-family: "Montserrat-Light";
+    font-size:20px;
+    color: var(--color-gradient-2);
+    text-decoration: none;
+}
+/******************* box **********************/
+
+.section__box{
+    background-color: #071917;
+}
+.div__box h1{
+    font-family: "Montserrat-Medium";
+    font-size: 28px;
+    color: var(--color-1);
+    padding-left: 40px;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+.article__box{
+    display: flex;
+    scrollbar-width: none;
+    gap: 26px;
+    padding-left: 26px;
+    padding-right: 26px;
+ }
+/******************** box-1 ****************************/
+.div__box-1{
+    background-color: #145E2A;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+    padding-bottom: 40PX;
+    width: 395px;
 }
 
+.div__box-1 img{
+    width: 380px;
+    padding-top: 16px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.div__box-1 h2{
+    color: var(--color-1);
+    font-family: "Montserrat-SemiBold";
+    font-size: 23px;
+    width: 350px;
+
+}
+.div__box-1 p{
+    color: var(--color-1);
+    font-family: "Montserrat-Regular";
+    font-size: 17px;
+    width: 350px;
+}
+.div__box-1 h3 a{
+    color: #071917;
+    font-family: "Montserrat-Regular";
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+}
+.div__box-1 button{
+    
+    border-radius: 50px;
+    border: 0;
+    width: 125px;
+    height: 34px;
+    color: var(--buttom);
+    box-shadow: 5px 5px 5px var(--color-gradient-2);
+}
+/******************** box-2 ****************************/
+.div__box-2{
+    background-color: #145E2A;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+    padding-bottom: 40PX;
+    width: 395px;
+}
+
+.div__box-2 img{
+    width: 380px;
+    padding-top: 16px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.div__box-2 h2{
+    color: var(--color-1);
+    font-family: "Montserrat-SemiBold";
+    font-size: 23px;
+    width: 350px;
+
+}
+.div__box-2 p{
+    color: var(--color-1);
+    font-family: "Montserrat-Regular";
+    font-size: 17px;
+    width: 350px;
+}
+.div__box-2 h3 a{
+    color: #071917;
+    font-family: "Montserrat-Regular";
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+}
+.div__box-2 button{
+    
+    border-radius: 50px;
+    border: 0;
+    width: 125px;
+    height: 34px;
+    color: var(--buttom);
+    box-shadow: 5px 5px 5px var(--color-gradient-2);
+}
+/******************** box-3 ****************************/
+.div__box-3{
+    background-color: #145E2A;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+    padding-bottom: 40PX;
+    width: 395px;
+}
+
+.div__box-3 img{
+    width: 380px;
+    padding-top: 16px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.div__box-3 h2{
+    color: var(--color-1);
+    font-family: "Montserrat-SemiBold";
+    font-size: 23px;
+    width: 350px;
+
+}
+.div__box-3 p{
+    color: var(--color-1);
+    font-family: "Montserrat-Regular";
+    font-size: 17px;
+    width: 350px;
+}
+.div__box-3 h3 a{
+    color: #071917;
+    font-family: "Montserrat-Regular";
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+}
+.div__box-3 button{
+    
+    border-radius: 50px;
+    border: 0;
+    width: 125px;
+    height: 34px;
+    color: var(--buttom);
+    box-shadow: 5px 5px 5px var(--color-gradient-2);
+}
+/******************* box-2 **********************/
+.article__box-2{
+    display: flex;
+    flex-direction: row;
+    scrollbar-width: none;
+    gap: 26px;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-top: 25px;
+ }
+/******************** box-4 ****************************/
+.div__box-4{
+    background-color: #145E2A;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+    padding-bottom: 40PX;
+    width: 395px;
+}
+
+.div__box-4 img{
+    width: 380px;
+    padding-top: 16px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.div__box-4 h2{
+    color: var(--color-1);
+    font-family: "Montserrat-SemiBold";
+    font-size: 23px;
+    width: 350px;
+
+}
+.div__box-4 p{
+    color: var(--color-1);
+    font-family: "Montserrat-Regular";
+    font-size: 17px;
+    width: 350px;
+}
+.div__box-4 h3 a{
+    color: #071917;
+    font-family: "Montserrat-Regular";
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+}
+.div__box-4 button{
+    
+    border-radius: 50px;
+    border: 0;
+    width: 125px;
+    height: 34px;
+    color: var(--buttom);
+    box-shadow: 5px 5px 5px var(--color-gradient-2);
+}
+/******************** box-5 ****************************/
+.div__box-5{
+    background-color: #145E2A;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+    padding-bottom: 40PX;
+    width: 395px;
+}
+
+.div__box-5 img{
+    width: 380px;
+    padding-top: 16px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.div__box-5 h2{
+    color: var(--color-1);
+    font-family: "Montserrat-SemiBold";
+    font-size: 23px;
+    width: 350px;
+
+}
+.div__box-5 p{
+    color: var(--color-1);
+    font-family: "Montserrat-Regular";
+    font-size: 17px;
+    width: 350px;
+}
+.div__box-5 h3 a{
+    color: #071917;
+    font-family: "Montserrat-Regular";
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+}
+.div__box-5 button{
+    
+    border-radius: 50px;
+    border: 0;
+    width: 125px;
+    height: 34px;
+    color: var(--buttom);
+    box-shadow: 5px 5px 5px var(--color-gradient-2);
+}
+/******************** box-6 ****************************/
+.div__box-6{
+    background-color: #145E2A;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+    padding-bottom: 40PX;
+    width: 395px;
+}
+
+.div__box-6 img{
+    width: 380px;
+    padding-top: 16px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.div__box-6 h2{
+    color: var(--color-1);
+    font-family: "Montserrat-SemiBold";
+    font-size: 23px;
+    width: 350px;
+
+}
+.div__box-6 p{
+    color: var(--color-1);
+    font-family: "Montserrat-Regular";
+    font-size: 17px;
+    width: 350px;
+}
+.div__box-6 h3 a{
+    color: #071917;
+    font-family: "Montserrat-Regular";
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+}
+.div__box-6 button{
+    border-radius: 50px;
+    border: 0;
+    width: 125px;
+    height: 34px;
+    color: var(--buttom);
+    box-shadow: 5px 5px 5px var(--color-gradient-2);
+}
+/********************* pie de foto ************************/
+.section__pie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 88px;
+}
+.div__pie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.div__pie h1{
+    font-family: "Montserrat-Bold";
+    font-size: 28px;
+    color: var(--color-1);
+}
+.div__pie p{
+    font-family: "Montserrat-Regular";
+    font-size: 20px;;
+    width: 855px;
+    text-align: center;
+    color: var(--color-1);
+}
+.div__pie-icons {
+    padding-top: 56px;
+    display: flex;
+    justify-content: space-between;
+    gap: 21px;
+    padding-bottom: 67px;
+}
