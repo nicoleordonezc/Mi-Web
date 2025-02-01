@@ -469,45 +469,46 @@
     .section__pag2{
         height: auto;
     }
-    .div__pag2 {
-    }
     .div__pag2 img{
         width: 100%;
     }
     .div__pag2 h1{
-        font-size: 30px;
+        font-size: 20px;
         width: 100%;
-        left: 80px;
+        left: 50px;
         max-width: 576px;
     }
     .section__pag3{
         height: auto;
     }
-    .div__pag3 {
-    }
     .div__pag3 img{
         width: 100%;
     }
     .div__pag3 h1{
-        font-size: 30px;
+        bottom: 6vh;
+        font-size: 20px;
         width: 100%;
-        left: 80px;
+        left: 50px;
         max-width: 576px;
+    }
+    .div__ult h1{
+        font-size: 30px;
     }
     .section__pag4{
         height: auto;
-    }
-    .div__pag4 {
     }
     .div__pag4 img{
         width: 100%;
     }
     .div__pag4 h1{
-        font-size: 30px;
+        bottom: 6vh;
+        font-size: 20px;
         width: 100%;
         left: 80px;
         max-width: 576px;
     }
-
+    .div__ult{
+    font-size: 28px;
+    }
 }
 
