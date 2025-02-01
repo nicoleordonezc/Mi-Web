@@ -87,9 +87,11 @@
     flex-direction:row;
     background: #071917;
 }
-.div__photo{
+.section__pag-2 img{
+    width: max-content;
+    max-width: 100%;
     padding-left: 26px;
-    width: 900px;
+    padding-right: 26px;
 }
 .div__contenido{
     display: flex;
@@ -102,7 +104,7 @@
     height: 470px;
     padding: 30px;
     border-radius: 30px;
-    right: 35px;
+    right: 25px;
     top: 270px;
     
 }
@@ -488,6 +490,63 @@
     padding-bottom: 67px;
 }
 /*************** movil *********************/
+@media (max-width: 960px){
+    .ul__menu{
+        padding-left: 300px;
+    }
+    .section__pag-2 img{
+       width: 850px;
+    }
+    .div__contenido{
+        top: 240px;
+        width: 480px;
+        height: 380px;
+    }
+    .div__contenido h3{
+        font-size:22px;
+        padding-bottom: 90px;
+        padding-right:245px;
+    }
+    .div__contenido h2{
+        font-size:22px;
+    }
+    .div__contenido p{
+        font-size:18px;
+        padding-bottom: 20px;
+    }
+    .div__contenido button a{
+        font-size: 18px;
+    }
+    .div__contenido button{
+        width: 160px;
+        height: 30px;
+    }
+    .div__up-menu {
+        gap: 15px;
+        display: flex;
+        justify-content: flex-start;
+        padding-left:80px;
+    }
+    .div__up-menu h2{
+        font-size: 15px;
+    }
+    .div__up-menu a{
+        font-size: 15px;
+    }
+    .div__up-menu button{
+        margin-right: 20px;
+        border-radius: 5px;
+        width: 100px;
+        height: 30px;
+    }
+    .div__up-menu button a{
+        font-size: 15px;
+    }
+    .div__pie p{
+        font-size: 18px;
+        width: 600px;
+    }
+}
 @media (max-width: 576px) {
     .header{
         justify-content: center;
@@ -513,10 +572,11 @@
         width: 90svw
     }
     .div__up-menu {
-        gap: 15px;
+        gap: 5px;
         display: flex;
         justify-content: center;
-        padding-left: 0;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .div__up-menu h2{
         font-size: 10px;
@@ -535,20 +595,21 @@
         font-size: 11px;
     }
     .section__pag-2{
-        height: auto;
         display: flex;
-    
-    }
-    .div__photo {
-        width: 300px;
-    }
+        padding-top: 30px;
+    } 
+    .section__pag-2 img{
+        width: max-content;
+        padding-left: 15px;
+        padding-right: 15px;
+     }
     .div__contenido {
         width: 310px;
         height: 270px;
         padding: 12px;
         border-radius: 10px;
-        right: 15px;
-        top: 310px;
+        right: px;
+        top: 180px;
     }
     .div__contenido h3{
         font-size:15px;
