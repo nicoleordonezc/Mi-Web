@@ -411,6 +411,24 @@
 
 /*************************** version movil *********************************/
 
+@media (max-width: 1920px) {
+    .div__pag2 img{
+        width: 100%;
+        padding-left: 23px;
+        padding-right: 23px;
+    }
+    .div__pag3 img{
+        width: 100%;
+        padding-left: 23px;
+        padding-right: 23px;
+    }
+    .div__pag4 img{
+        width: 100%;
+        padding-left: 23px;
+        padding-right: 23px;
+    }
+}
+
 @media (max-width: 960px) {
     .header{
         padding: 15px;
@@ -436,6 +454,21 @@
         width: 45px;
         height: 45px;
         object-fit: contain;
+    }
+    .div__pag2 img{
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .div__pag3 img{
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .div__pag4 img{
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 @media (max-width: 576px) {
@@ -469,6 +502,8 @@
     }
     .div__pag2 img{
         width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .div__pag2 h1{
         font-size: 22px;
@@ -482,6 +517,8 @@
     }
     .div__pag3 img{
         width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .div__pag3 h1{
         bottom: 3vh;
@@ -498,6 +535,8 @@
     }
     .div__pag4 img{
         width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .div__pag4 h1{
         bottom: 3vh;
